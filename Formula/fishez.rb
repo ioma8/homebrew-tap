@@ -39,8 +39,13 @@ class Fishez < Formula
 
   def caveats
     <<~EOS
-      To enable the fz cd-on-exit wrapper, add this to your shell rc:
-        eval "$(fishez --init)"
+      To enable the fz cd-on-exit wrapper, run:
+        fishez --install-shell
+
+      Then open a new shell, or source the rc file it prints.
+
+      To remove the wrapper later:
+        fishez --uninstall-shell
     EOS
   end
 
