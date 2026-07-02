@@ -32,7 +32,9 @@ class Fishez < Formula
   end
 
   def install
-    bin.install Dir["fishez-*"].first => "fishez"
+    binary = Dir["fishez-*"].first
+    chmod 0755, binary
+    bin.install binary => "fishez"
   end
 
   def caveats
