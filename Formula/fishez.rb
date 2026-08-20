@@ -10,24 +10,24 @@ class Fishez < Formula
   on_macos do
     on_arm do
       url "https://github.com/ioma8/fishez/releases/download/v#{version}/fishez-macos-aarch64"
-      sha256 "f88daa6736089f6744e3ee778f8eeed9e0af80422c8230dc78ddbf69be48fbc7"
+      sha256 "3bbfce8afde21e6b404afa0711cac240bed9e7fee654cbadd3ae78b544b38c10"
     end
 
     on_intel do
       url "https://github.com/ioma8/fishez/releases/download/v#{version}/fishez-macos-x86_64"
-      sha256 "0b3ef8c9e1f4b2269cd4d439cbb1d74f89f723ea7d6bbc9614e638e41b8ca383"
+      sha256 "e5f5f35c8be3a7e3f657c637c91f9a6c91f09d7351c45a7671c2036e626bbca4"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ioma8/fishez/releases/download/v#{version}/fishez-linux-aarch64"
-      sha256 "20067e8a1c40662a0cc095f2651f27eda42aff13d7e03c0be3110c96a77b0efb"
+      sha256 "533f42fb46857240132d849753973cde5d5253d487b63aef0f25af130dfcd074"
     end
 
     on_intel do
       url "https://github.com/ioma8/fishez/releases/download/v#{version}/fishez-linux-x86_64"
-      sha256 "daea11b8ac2e909c9e8ee0a61d9b5768fbb7c78cfaa3b71ba8b68ecb01335e01"
+      sha256 "f88daa6736089f6744e3ee778f8eeed9e0af80422c8230dc78ddbf69be48fbc7"
     end
   end
 
