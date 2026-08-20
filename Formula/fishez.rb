@@ -1,7 +1,7 @@
 class Fishez < Formula
   desc "Lightning-fast terminal file manager for developers"
   homepage "https://github.com/ioma8/fishez"
-  version "0.3.1"
+  version "0.4.0"
   license "MIT"
 
   depends_on "fd"
@@ -10,7 +10,7 @@ class Fishez < Formula
   on_macos do
     on_arm do
       url "https://github.com/ioma8/fishez/releases/download/v#{version}/fishez-macos-aarch64"
-      sha256 "999e9372a400446bff2e1a2d429edfcdc440e7d94af3c67e403590debd823c14"
+      sha256 "f88daa6736089f6744e3ee778f8eeed9e0af80422c8230dc78ddbf69be48fbc7"
     end
 
     on_intel do
