@@ -1,7 +1,7 @@
 class Fishez < Formula
-  desc "Lightning-fast terminal file manager for developers"
+  desc "Terminal file manager with Total Commander-style controls"
   homepage "https://github.com/ioma8/fishez"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   depends_on "fd"
@@ -10,24 +10,24 @@ class Fishez < Formula
   on_macos do
     on_arm do
       url "https://github.com/ioma8/fishez/releases/download/v#{version}/fishez-macos-aarch64"
-      sha256 "3bbfce8afde21e6b404afa0711cac240bed9e7fee654cbadd3ae78b544b38c10"
+      sha256 "a731ff94490610139ef4d8e362cd246c5de02d514fc050101153bdce3f6ae7cd"
     end
 
     on_intel do
       url "https://github.com/ioma8/fishez/releases/download/v#{version}/fishez-macos-x86_64"
-      sha256 "e5f5f35c8be3a7e3f657c637c91f9a6c91f09d7351c45a7671c2036e626bbca4"
+      sha256 "7f51f2470ab300f24621fe85367be233fef4872f23e9b9a453e8fa72aaff47b4"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ioma8/fishez/releases/download/v#{version}/fishez-linux-aarch64"
-      sha256 "533f42fb46857240132d849753973cde5d5253d487b63aef0f25af130dfcd074"
+      sha256 "b99dddf4c0982fd876e558e0a7f089662ff385a5fb848abab25dd1661a304ea0"
     end
 
     on_intel do
       url "https://github.com/ioma8/fishez/releases/download/v#{version}/fishez-linux-x86_64"
-      sha256 "f88daa6736089f6744e3ee778f8eeed9e0af80422c8230dc78ddbf69be48fbc7"
+      sha256 "37f1a87d0b0a35cae5f667635e943ad92fc71c02c5e34f49d6c0c67be3b94a3f"
     end
   end
 
